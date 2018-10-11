@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <TextArea layoutX="38.0" layoutY="37.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="60.0" />
+      <TextField layoutX="-65.0" layoutY="505.0" prefHeight="51.0" prefWidth="652.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="128.0" AnchorPane.topAnchor="529.0" />
+      <Button layoutX="685.0" layoutY="528.0" mnemonicParsing="false" text="Send" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+      <Label layoutX="92.0" layoutY="16.0" text="Lobby" />
+      <TextFlow layoutX="186.0" layoutY="11.0" prefHeight="481.0" prefWidth="532.0" />
+   </children>
+</AnchorPane>
